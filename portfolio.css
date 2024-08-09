@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    
+    
+}
+.intros{
+    text-align: center;
+    margin-right: 20%;
+    margin-top: 13%;
+    width: 30%;
+    backdrop-filter:blur(20px);
+    height: 20%;
+    box-shadow: 0px 0px 30px rgba(119, 129, 215, 0);
+    /* border: 1.5px solid rgba(0, 0, 0, 0.18); */
+    border-radius: 10%;
+   
+}
+/* .container{
+    display: inline-block;
+} */
+.ali{
+    color: #000000;
+    text-shadow: 2px 2px 4px rgb(219, 208, 208);
+}
+/* .button1{
+    /* display: flex; 
+    flex-direction:column ;
+} */
+.h4{
+    letter-spacing: 5px;
+    font-size: 3em;
+    font-family: monospace;
+    border-right: 3px solid;
+    /* padding: -10% auto; */
+    width: 300px;
+    white-space:nowrap;
+    overflow: hidden;
+    animation: 
+    typing 3s steps(50),
+    cursor 6s step-end infinite alternate;
+    
+}
+@keyframes cursor{
+    50%{border-color: transparent;    }
+}
+@keyframes typing{
+    from{width:0;}
+}
+.button1{
+    border-radius:15px;
+    border: none;
+    background-color: rgb(245, 155, 11);
+    padding: 8px 20px 8px 20px;
+    transition: 0.80s;
+    color: #ffffff;
+    box-shadow: 2px 3px 10px rgba(190, 200, 240, 0.445);
+}
+.button1:hover{
+    /* background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); */
+    transform: scale(1.2 ,1.2);
+    box-shadow: 4px 6px 10px rgba(49, 49, 50, 0.801);
+    background-color: #131313c2;
+    color: rgb(250, 246, 246);
+
+}
+
+.button2{
+    border-radius:15px;
+    border: none;
+    background-color: rgb(245, 155, 11);
+    color: rgb(255, 255, 255);
+    padding: 8px 20px 8px 20px;
+    margin-left: 4%;
+    transition: 0.80s;
+    box-shadow: 2px 3px 8px rgba(190, 200, 240, 0.445);
+   
+} 
+.button2:hover{
+    /* background-color: rgb(251, 251, 251);
+    color: black; */
+    transform: scale(1.2,1.2);
+    box-shadow: 4px 6px 10px rgba(49, 49, 50, 0.801);
+
+    background-color: #302f2fc2;
+    color: rgb(250, 246, 246);
+    
+
+}
+.port{
+    display: flex;
+    /* flex-direction: column;  */
+    /* width: 100%; */
+   
+}
+.port{
+    background:url(/images/WhatsApp\ Image\ 2024-07-28\ at\ 4.36.40\ PM.jpeg);
+    /* background-size: cover; */
+    /* object-fit: cover; */
+    /* height: 540px; */
+}
+.port img{
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    border-radius:500px;
+    margin-left: 30%;
+    margin-top: 12%;
+    /* box-shadow: inset 200px 200px 20px black; */
+    transition: 1s;
+    /* border: 2px solid rgba(0, 0, 0, 0.781); */
+    
+   
+}
+.port img:hover{
+    box-shadow: 4px 6px 25px rgba(0, 0, 0, 0.445),
+                -1px -1px 10px rgb(185, 207, 222);
+    transform: scale(1.1);
+   
+}
+.btns{
+margin-bottom: 10%;
+
+/* display: flex; */
+}
+.texts p{
+    margin-top: 7%;
+}
+.text{
+    font-size: 2.5rem;
+    margin-bottom: -3%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texts{
+    text-align: center;
+    /* margin-top: -3%; */
+}
+.info{
+    display: flex;
+    text-align: center;
+    
+    margin-top: 5% ;
+    margin-left: 26%;
+}
+.medal{
+    border: 1px solid rgb(1, 1, 1);
+    padding:3% 1% 1% 1% ;
+    border-radius: 20px;
+    width: 30%;
+    height: 5%;
+    transition: 1s;
+}
+.medal:hover{
+    transform: scale(1.1,1.1);
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.users{
+    border: 1px solid black;
+    padding:3% 1% 1% 1% ;
+    margin-left: 4%;
+    border-radius: 20px;
+    width: 30%;
+    height: 10%;
+    transition: 1s;
+}
+.users:hover{
+    transform: scale(1.1,1.1);
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.para{
+    text-align: left;
+    font-size: small;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.nav-linkactive{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    /* width: 100%; */
+    margin-left: 15%;
+    transition: 0.50s;
+}
+.nav-linkactive:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);    
+    transform:scale(1.1) translateY(-5px);
+    
+}
+.front{
+    display: flex;
+    
+}
+.texts{
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+.till {
+    display: flex;
+    margin-left: 2%;
+}
+.till i{
+    margin-top: 6%;
+    padding-right: 15%;
+}
+.tills{
+    display: flex;
+}
+.tills i{
+    margin-top: 6%;
+    margin-left: 30%;
+    padding-right: 15%;
+}
+.fronts{
+    display: flex;
+    margin: 2% 20%;
+    width: 70%;
+}
+.Back{
+    margin-left: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    padding: 8%;
+    border-radius: 30px;
+    transition: 1s;
+   
+}
+.Back:hover{
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.end{  
+    border: 2px solid rgb(255, 255, 255);
+    color: #ffffff;
+    padding: 8%;
+    border-radius: 30px;
+    transition: 1s;
+    margin-left: -10%;
+}
+.end:hover{
+    transform: scale(1.2);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.email{
+    width: 30%;
+   margin: 2% 35%;
+    display: flex;
+    border: 2px solid rgba(61, 57, 57, 0.459);
+    border-radius: 15px;
+    padding: 10px 1px 0 30px;
+    transition: .7s;
+    background-color: rgb(126, 126, 126);
+    color: #ffffff;
+    box-shadow: 6px 6px 20px #2e2e2e,
+    -10px -10px 20px #e2e2e2;
+    text-decoration: none;
+    margin-bottom: 3%;
+
+}
+.email i{
+    margin: 5px 15px;
+}
+.email:hover{
+    box-shadow: 10px 10px 10px #e3640844,
+    -10px -10px 10px #e2e2e2;
+    transform: scale(1.1);
+
+}
+.no{
+    width: 30%;
+   margin: 2% 35%;
+   /* margin-bottom: 8%; */
+    display: flex;
+    border: 2px solid rgba(61, 57, 57, 0.459);
+    border-radius: 15px;
+    padding: 10px 1px 0 30px;
+    transition: .7s;
+    background-color: rgb(126, 126, 126);
+    color: #ffffff;
+    box-shadow: 6px 6px 20px #2e2e2e,
+    -10px -10px 20px #e2e2e2;
+    text-decoration: none;
+    margin-bottom: 3%;
+}
+.no:hover{
+    box-shadow: 10px 10px 10px #e3640844,
+    -10px -10px 10px #e2e2e2;
+    transform: scale(1.1);
+
+}
+.no i{
+    margin: 5px 15px;
+}
+.textes{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    color: #f0830e;
+}
+.nav-linkactives{
+    color: black;
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1% 2%;
+    border-radius: 15px;
+    transition: 0.80s;
+    
+}
+.nav-linkactives:hover{
+    color: rgb(255, 253, 253);
+    background-color: rgb(255, 111, 0);
+}
+.paras{
+    font-size: small;
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+nav ul{
+    background-color: blue;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    color:white;
+    list-style: none;
+}
+nav ul li a{
+    /* margin: 12px; */
+    /* color: white; */
+    padding: 20px;
+}
+nav ul li a{
+    color: white;
+    /* line-height: 40px; */
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    background-color: aqua;
+    color:black;
+    
+}
+nav ul li:hover a{
+    color:black
+}
+.navback{
+    background-color:aqua;
+    color: black;
+}

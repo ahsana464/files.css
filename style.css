@@ -1,0 +1,33 @@
+body{
+    /* text-align: center; */
+    
+}
+p span{
+    color: rgb(46, 152, 19);
+    background-color: rgb(230, 130, 130, 1);
+
+
+} 
+ a:first-child{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+    font-size: 4%;
+    width: 100%;
+
+}
+.container{
+    background-color: aqua;
+    /* height: 40px; */
+    max-width: 40%;
+    margin: 0 auto;
+    border-radius: 50px;
+    
+}
+.container h3{
+    font-size: 100%;
+    width: 40%;
+    padding: 20px 0px 20px 70px; 
+    /* text-align: center; */
+}

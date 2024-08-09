@@ -1,0 +1,94 @@
+body{
+    box-sizing:border-box;
+    background-color: aquamarine;
+ }
+
+#highlight{
+    background-color: rgba(101, 172, 172, 0.854);
+    border-radius: 1000px;
+    width: 12%;
+    padding:0.8% 0 0.8%  ;
+    margin: 0 0;
+    color: rgba(255, 255, 255, 0.854);
+    text-align: center;
+}
+.image{
+    width: 80%;
+    height: 0%;
+    margin: 20px 0 20px 100px;
+    
+}
+.SAME{
+    border-radius:20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 154, 110);
+}
+.radio{
+    color: rgb(84, 145, 145);
+}
+.diff{
+    color: rgb(84, 129, 142);
+    width: 10%;
+    border-radius:20px;
+    
+}
+.head{
+    color: rgb(56, 129, 177);
+    width: 50%;
+
+}
+#hell{
+    width:50%;
+    text-align: left;
+}
+.all{
+    color: rgb(84, 145, 145);
+    font-size: 140%;
+}
+.heade{
+    color: rgb(60, 80, 167);
+
+}
+.hi{
+    color: rgb(5, 84, 52);
+    
+}
+.ray{
+    width: 50%;
+    
+    color: rgb(30, 98, 75);
+    text-align: left;
+}
+.headers{
+    color: rgb(131, 172, 217);
+
+}
+.bl-cn{
+    margin: 20px 0 30px 100px;
+    /* background-color:aqua; */
+
+
+
+}
+.add{
+    color: rgb(22, 136, 149);
+    border-radius: 10px ;
+}
+
+.banner{
+    /* background: url("../images/image1.jpg");  */
+    background-image: url(../images/dark\ black\ car.jpg);
+    height: 400px;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.image-block{
+    display: inline-block;
+    height: 100px;
+    margin: 0  50px;
+
+
+}
+.image-block img{
+    width: 40px;
+}

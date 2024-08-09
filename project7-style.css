@@ -1,0 +1,233 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    background-image: url(/images/mountain.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.nav-linkactive{
+    color: rgb(255, 255, 255);
+    transition: 0.80s;
+}
+.nav-linkactive:hover{
+    color: rgb(100, 143, 206);
+
+}
+.text{
+    text-align: center;
+    padding-top: 13%;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 3px 2px 1px rgb(0, 0, 0);
+}
+.line1{
+   margin: 1% 13% 0 13%;
+}
+.line2{
+    margin: 1% 30% 0 30%;
+}
+.text h2{
+    padding-top: 1%;
+}
+.header p{
+    width: 77%;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 22%;
+    font-size: large;
+    color: white;
+}
+.head button{
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 45%;
+    transition: 1s;
+}
+.header button:hover{
+    background-color: rgb(23, 53, 98); 
+    transform: scale(1.1,1.1);
+}
+.navlinkactive{
+    margin-bottom: 20%;
+    color: rgb(58, 80, 126);
+}
+.navbarnav{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 2% 20%;
+    padding: 1%;
+}
+.oops{
+    border-top: 2px solid black;
+    /* margin: 0 40%; */
+    width: 80%;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(48, 80, 108);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%;
+    margin: 10px auto;
+
+}
+.oops h1{
+    letter-spacing: 2px;
+    transition:letter-spacing .5s ease-in-out;
+}
+.oops h1:hover{
+    /* transform:translateX(23px); */
+    /* color: aqua; */
+    letter-spacing: 10px;
+
+
+}
+.images{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.image{
+    /* background: url(/images/chinos\ pants.jpg); */
+    /* background-size: cover; */
+    width: 320px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    /* color: aliceblue; */
+    /* padding: 130px 50px; */
+
+}
+.image:hover{
+    box-shadow: inset 320px 400px 1px 1px rgba(25, 26, 19, 0.183);
+    
+    
+    
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition:opacity 0.50s ease-in-out;
+}
+
+.image img:hover{
+    opacity:0.5;
+    /* transition: opacity 1s ease-in; */
+}
+
+.image .pc-cont {
+    position: absolute;
+    top:30%;
+    margin-left: -70px;
+    left:50%;
+    color: aliceblue;
+}
+.image:hover .pc-cont{
+    display:none;
+    transition: 0.50s; 
+}
+.image:hover button{
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    /* transition-delay: 1s; */
+    
+}
+.image button{
+    position: absolute;
+    top: 50%;
+    left:25%;
+    /* display: none; */
+    border: none;
+    width: 120px;
+    height: 30px;
+    opacity: 0;
+}
+.form{
+    text-align: center;
+    background: url(/images/windows-11-4k-alone-in-ruins-1lby5qnbf8f520md.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    
+}
+.form h1{
+    font-size: 60px;
+    margin-top: 3%;
+    color: aliceblue;
+}
+.form h2{
+    padding-top: 5%;
+    color: rgba(211, 198, 47, 0.669);
+}
+.input1{
+    margin-top: 5%;
+}
+.name{
+    padding: 1%;
+    width: 40%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.morn{
+    padding: 1%;
+    width: 20%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.date{
+    padding: 1%;
+    width: 20%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.input2{
+    margin-top: 1%;
+}
+.email{
+    padding: 1%;
+    width: 40%;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.event{
+    padding: 1%;
+    width: 20%;
+    background-color: transparent;
+    border: 2px solid white;
+    
+}
+.book{
+    padding: 1%;
+    width: 20%;
+    background-color: rgb(226, 201, 72);
+    border: 2px solid white;
+}
+.h{
+    margin: 2% ;
+
+    color: aliceblue;
+}
+.img img{
+    width: 2%;
+    height: 2%;
+    padding-top: 7%;
+}
+.img{
+    background-color: rgb(62, 63, 63);
+    text-align: center;
+}
+.img p{
+    padding-bottom: 5%;
+  
+}

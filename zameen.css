@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+}
+/* .nav-bar-list{
+    display: flex;
+    list-style: none;
+
+}
+.nav-bar-list li{
+    margin: 2%;
+
+}
+.nav-bar-list a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.drop-1{
+    list-style: none;
+        position: absolute;
+        /* top: 70px; 
+        margin: 4% 0 0 27%;
+        width: 15%;
+        background-color: rgb(24, 81, 66);
+        padding: 1% 1%;
+        overflow: hidden;
+        text-align: left;
+
+        display: none;
+        border: 1px solid black;
+        border-radius: 20px;
+    
+}
+.drop-1 li{
+    /* display: none; 
+
+    padding: 1% 0;
+    border-bottom: 1px solid black;
+}
+.drop-1 li a{
+    color: aliceblue; 
+
+}
+.tag:hover .drop-1{
+    display: block;
+    /* color: blue; 
+} */
+ 
+.main-menus{
+    list-style: none;
+    display: block;
+    align-items: center;
+    
+    /* text-align:center; */
+    background-color: rgba(136, 43, 43, 0.893);
+    height: 100%;
+    width: 70%;
+    /* margin-left: 10%; */
+    margin-top: 2.5%;
+    /* border-radius: 20px; */
+
+    overflow: hidden;
+}
+.main-menus li{
+    /* background-color: aliceblue; */
+    /* margin-left: 10%; */
+    margin: 0 0 0 2%;
+    padding: 1%;
+    /* color: white; */
+    display: inline-block;
+    /* line-height: 300%; */
+    /* height: 100%; */
+    /* line-height: 40px; */
+    
+}
+.main-menus li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.929);
+    font-size: small;
+}
+.main-menus li:hover .submenus{
+    display: block;
+}
+@media only screen and (max-width: 600px){
+    .main-menus{
+        display: none;
+    }
+    .toggle-button{
+        display: block;
+    }
+    .main-menus li{
+        display: block;
+    }
+    .main-menus-screen{
+        position: absolute;
+        height: 200px;
+        z-index: 22;
+        top: 60%;
+        margin-top: 45px;
+        border-radius: 0;
+        right: 0%;
+        /* display: none; */
+    }
+    
+}
+.submenus{
+    position: absolute;
+    /* top: 70px; */
+    margin: .5% 0 0 -2.5%;
+    width: 9.4%;
+    background-color: rgb(249, 207, 207);
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+.submenus li{
+    /* display: block; */
+    border-bottom: 1px solid rgba(136, 43, 43, 0.893);
+    width: 150px;
+    padding: 1%;
+    line-height: 200%;
+    margin: -1% 0 0 -55px;
+}
+.submenus li:hover{
+    background-color: rgb(247, 124, 117);
+    color: rgb(255, 255, 255);
+    
+}
+.submenus li a{
+    text-decoration: none;
+    /* background-color: aqua; */
+    color: rgb(255, 255, 255); 
+}
+.main-menus li:hover .submenus{
+    display: block;
+}
+.btn{
+    padding: 1% 4%;
+    margin-top: 5%;
+    margin-left: 3%;
+    color:  rgba(255, 255, 255, 0.893);
+    background-color:  rgba(136, 43, 43, 0.893);
+    /* border:1px solid   rgb(0, 0, 0); */
+    border: none;
+    /* border-radius: 20px; */
+    box-shadow: 1px 2px 10px 2px  rgb(29, 29, 29);
+    /* border: none; */
+    transition: 1s;
+    border: 1px solid rgb(152, 53, 53);
+
+
+}
+.btn:hover{
+    background-color: transparent;
+    color: rgba(136, 43, 43, 0.893);
+    border: 1px solid black;
+}
+.img{
+    background: url(/prsnl-portfolio/images/Screenshot\ 2024-08-07\ 224853.png);
+    height: 530px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: -5%;
+}
+.btns{
+    padding: 1% 4%;
+    margin-top: 5%;
+    margin-left: 3%;
+    color:  rgba(255, 255, 255, 0.893);
+    background-color:  rgba(136, 43, 43, 0.893);
+    /* border:1px solid   rgb(0, 0, 0); */
+    border: none;
+    /* border-radius: 20px; */
+    /* box-shadow: 1px 2px 10px 2px  rgb(249, 207, 207); */
+    /* border: none; */
+    transition: 1s;
+    border: 1px solid rgb(152, 53, 53);
+    
+
+
+}
+.btns:hover{
+    background-color: transparent;
+    color: rgba(136, 43, 43, 0.893);
+    border: 1px solid black;
+}
+.nav a:hover{
+    /* background-color: aqua; */
+    border-bottom: 2px solid rgba(107, 29, 29, 0.893);;
+   
+    /* position:relative; */
+}

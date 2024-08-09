@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+ .nav-bar{
+    background-color:rgb(162, 211, 166);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    margin: -20px 0 0 0;
+    
+}
+.main-menu{
+    list-style: none;
+    display: block;
+    /* align-items: center; */
+    text-align:center; 
+    /* background-color: rgb(162, 211, 166);  */
+    /* position: fixed; */
+    width: 60%;
+    display: inline-block;
+    /* border-radius: 60px; */
+    /* height: 110%; */
+    padding-top: 4px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+.main-menu li{
+    margin: 0 5px;
+    padding: 4px;
+    display: inline-block;
+    line-height: 45px;
+}
+.submenu{
+    position: absolute;
+    top: 70px;
+    margin: 0px 0px 0 -30px;
+    width: 120px;
+    background-color: rgb(248, 250, 250);
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+.submenu li{
+    display: block;
+    border-bottom: 1px solid rgb(252, 252, 252);
+    padding: 2px;
+    line-height: 30px;
+    margin: 0 0 0 -40px;
+}
+ .main-menu li{
+    text-decoration: none;
+    color: rgb(20, 21, 21);
+    font-size: 21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-menu li a{
+    text-decoration: none;
+
+}
+.submenu li a{
+    text-decoration: none;
+    color: rgb(162, 211, 166); 
+    
+}
+.main-menu li:hover .submenu{
+    display: block;
+}
+/* .submenu li:hover{
+    color: rgb(255, 255, 255);
+
+} */
+.main-menu li:hover,.main-menu li a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 10px;
+    color:rgb(30, 32, 30) !important ;
+    transition: 0.5s;
+}
+.yuri{
+    margin-top: 5px;
+    background:url(../images/depositphotos_325139718-stock-photo-mint-colored-low-contrast-concrete.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 630px;
+    z-index: 7;
+    /* height: 70vh; */
+    color: rgb(255, 255, 255);
+    ;
+}
+.yuri-text{
+    text-align: center;
+    padding-top :20px ;
+}
+.yuri-p{
+    text-align: center;
+    padding-top: 280px;
+}
+.inputs .input-align{
+    width: 300px;
+    margin-left: 220px;
+    height: 30px;
+    margin-bottom: 20px;
+    color: rgb(134, 180, 124);
+    
+}
+.inputs .inp-br{
+    border: 0px;
+    border-bottom: 1px solid rgb(141, 190, 147);
+    
+    
+}
+.inputs .inp-br:hover{
+    background-color: rgba(115, 195, 127, 0.224); 
+    border-radius: 20px;
+    
+}
+
+.text{ color: rgb(123, 172, 127);
+   
+}
+    
+    .button{
+        margin-left:  220px;
+        margin-bottom: 20px;
+        color:rgba(255, 255, 255, 0.881);
+        background-color: rgb(107, 167, 125);
+        border-radius: 8px;
+        border: 0px;
+        padding: 6px;
+        
+    }
+    .heading{
+        padding: 0 200px 20px 220px;
+        clear: both;
+        color: rgba(18, 90, 37, 0.658);
+    }
+    .excel{
+        color: rgb(123, 172, 127);
+    } 
+    .button:hover{
+            color: rgb(123, 172, 127);  
+            background-color:rgba(170, 168, 168, 0.247);
+            transform: scale(1.3,1.3) ;
+            /* rotate(-360deg) translate(10px, 23px); */
+            border-radius: 15px;
+            border-style: double;
+            border-color:rgb(123, 172, 127);;
+            transition: 0.81s ease;
+    }
+    .yuri-texts{
+        text-align: center;
+        padding-top :20px ;
+    }
+    .yuri-texts:hover{
+        transform: scale(1.3,1.3) ;
+        transition: 1s;
+    }
+    .portfolio{
+        text-align: center;
+        color: rgb(81, 141, 102);
+    }
+    .portfolio-text{
+        color: rgb(124, 177, 138);
+        margin: 0 100px 50px 100px;
+        
+    }
+    input[type='text'], input[type='date']{
+        padding: 4px 38px;
+        background:url('../images/car.jpg');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 13px 4px;
+        width: 45%;
+    }
+    input[type='text']:focus, input[type='date']:focus{
+        background-color: pink;
+        border-radius: 20px;
+        outline: none;
+    }
+    input[type='search'] {
+        height: 60px;
+        background: url('../images/search.png');
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: 5px 5px;
+        /* border: 2px solid black; */
+        width: 40px;
+        height: 40px;
+        /* z-index: 99; */
+        float: right;
+        margin: 5px 30px;
+        padding: 5px 32px;
+        border: 0px;
+          
+    }
+    input[type='search']:focus{
+        width: 220px;
+        height: 40px;
+
+    }
+
+
+        
+
+

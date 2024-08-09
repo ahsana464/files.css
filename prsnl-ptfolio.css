@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    margin-top: -1.5%;
+    padding: 0;
+}
+
+.nav-container{
+    /* background-color: rgba(78, 78, 78, 0.977); */
+    height: 100%;
+    width: 100%;
+    /* margin-top: -2.5%; */
+    
+}
+.main-menu{
+    list-style: none;
+    display: block;
+    align-items: center;
+    
+    /* text-align:center; */
+    background-color: rgba(39, 38, 38, 0.893);
+    height: 100%;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    border-radius: 20px;
+
+    overflow: hidden;
+}
+.main-menu li{
+    /* background-color: aliceblue; */
+    /* margin-left: 10%; */
+    margin: 0 0 0 5%;
+    padding: 2%;
+    /* color: white; */
+    display: inline-block;
+    /* line-height: 300%; */
+    /* height: 100%; */
+    /* line-height: 40px; */
+    
+}
+
+.submenu{
+    position: absolute;
+    /* top: 70px; */
+    margin: 1% 0 0 -2.5%;
+    width: 9.4%;
+    background-color: rgb(71, 71, 71);
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+
+.submenu li{
+    /* display: block; */
+    border-bottom: 1px solid rgb(15, 15, 15);
+    padding: 1%;
+    line-height: 200%;
+    margin: 0 0 0 -40px;
+}
+.submenu li:hover{
+    background-color: rgb(255, 170, 0);
+    
+}
+/* .submenu li:hover{
+    color: rgb(70, 69, 69);
+    background-color:rgb(16, 60, 63);
+
+}
+.main-menu li:hover,.main-menu li a:hover{
+    background-color: rgb(205, 176, 176);
+    /* padding: 10%; */
+    /* border-bottom: 2px solid rgb(17, 88, 88); */
+
+    /* color:rgb(7, 34, 37); */
+/* } */ 
+.nav a:hover{
+    /* background-color: aqua; */
+    border-bottom: 2px solid rgba(136, 43, 43, 0.893);;
+   
+    /* position:relative; */
+}
+#ink{
+    transition: 0.50s;
+}
+#ink:hover{
+    transform:translateY(-3px);
+}
+
+
+.main-menu li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.929);
+    font-size: larger;
+}
+.submenu li a{
+    text-decoration: none;
+    /* background-color: aqua; */
+    color: rgb(255, 255, 255); 
+}
+.main-menu li:hover .submenu{
+    display: block;
+}
+.imageback{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+.toggle-button{
+    width: 60px;
+    height: 50%;
+    /* float: right; */
+    background-color: antiquewhite;
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    display: none;
+}
+.toggle-button hr{
+    height: 4px;
+    background-color: black;
+}
+@media only screen and (max-width: 600px){
+    .main-menu{
+        display: none;
+    }
+    .toggle-button{
+        display: block;
+    }
+    .main-menu li{
+        display: block;
+    }
+    .main-menu-screen{
+        position: absolute;
+        height: 200px;
+        z-index: 22;
+        top: 60%;
+        margin-top: 45px;
+        border-radius: 0;
+        right: 0%;
+        /* display: none; */
+    }
+    
+}
+.container{
+    display: grid;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 5rem;
+    margin-top: -5%;
+}
+.card--container{
+    display: grid;
+    row-gap: 3.5rem;
+
+}
+.card--article{
+    position: relative;
+    overflow: hidden;
+}
+.card--img{
+    width: 328px;
+    border-radius: 1rem;
+
+}
+.card--data{
+    width: 280px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    
+    
+    padding: 1.5rem 2rem;
+    box-shadow: 0 8px 20px hsl(0, 0%, 0%);
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    opacity:0;
+    transition: opacity 1s 1s;
+}
+
+.card--description{
+    display: block;
+    font-size: small;
+    margin-bottom: .25rem;
+}
+.card--tittle{
+    font-size: large;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: .75rem;
+
+}
+.card--button{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+    color: rgb(241, 142, 12);
+}
+.card--button:hover{
+    text-decoration: underline;
+}
+.card--article:hover .card--data{
+    animation: show-data 1s forwards;
+    opacity: 1;
+    transition: opacity .3s;
+
+}
+.card--article:hover{
+    animation: remove-overflow .1s forwards;
+
+
+}
+
+.card--article:not(:hover){
+    animation: show-overflow 2s forwards;
+}
+.card--article:not(:hover) .card--data{
+    animation: remove-data 1s forwards;
+}
+@keyframes show-data{
+    50%{
+        transform: translateY((-10rem));
+    }
+    100%{
+        transform: translateY(-7rem);
+    }
+}
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
+@keyframes remove-data{
+    0%{
+        transform: translateY(-7rem);
+    }
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(.5rem);
+    }
+}
+@keyframes show-overflow{
+    0%{
+        overflow: initial;
+        /* pointer-events: none; */
+    }
+    50%{
+        overflow: hidden;
+    }
+    /* 0%{
+        transform: translateY(-7rem);
+    } */
+
+}

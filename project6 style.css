@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    /* padding:0; */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.search {
+    height: 60px;
+    background: url('../images/search-512.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin: 5px 30px;
+    /* padding: 7px 0 0 0; */
+    border: 0px;
+    border-radius: 20px;
+}
+.search:hover{
+    background-color: rgb(61, 62, 63);
+    /* background-size: cover; */
+    transform: scale(1.2,1.2);
+    transition: 0.80s;
+
+}
+
+.image{
+    height: 60px;
+    border: 1px solid rgb(194, 40, 40);
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 3px 0px;
+    padding: 0 15px;
+    border: 0px;
+    border-radius: 0px;
+    /* background-size: 3000px; */
+
+}
+.image:hover{
+    background-color: rgba(113, 111, 111, 0.571);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+    height: 37px;
+    width: 100%;
+    /* margin: -22px 0 0 -10px; */
+}
+
+/* .header {
+    margin: 50px 0px 0px 500px;
+} */
+
+.header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 50px 0px 0px 500px;
+}
+.header p{
+    margin-right: 50px;
+    margin: -10px 0px 30px 470px;
+}
+.yuri{
+    background:url(/prsnl-portfolio/images/images/goku-musculoso-dragon-ball-z-amoled-minimal-black-5120x2880-4945.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+}
+.yuri-h2{
+    /* text-align: center; */
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 300px;
+    color: rgb(255, 255, 255);
+}
+.dustin{
+    /* margin-left:0; */
+    width: 60%;
+    /* height: 500px; */
+    display: inline-block;
+}
+.dustin-h1{
+    margin: 0 0 0 300px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dustin-h2{
+    margin: 10px 0 0px 225px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dustin-img{
+    width:100%;
+}
+.sec-1{
+    background-color: rgba(86, 87, 87, 0.644);
+    width: 100%;
+    height: 1300px;
+    /* display: inline-block; */
+}
+.car{
+    /* margin-top: -150px; */
+    /* background-color: rgb(250, 215, 215); */
+    height: 500px;
+    width: 39%;
+    display: inline-block;
+}
+.img-car{
+    margin:0 5px 0 0;
+    width: 100%;
+    height: 60%;
+}
+.button{
+    margin: 10px 0 20px 650px;
+    padding: 10px 15px 10px 15px;
+    background-color: black;
+    color: azure;
+    border-radius: 15px;
+    border: none;
+}
+.button:hover{
+    background-color: rgba(54, 54, 54, 0.904);
+    color: rgb(0, 0, 0);
+    transform: scale(1.3,1.3);
+    transition: 0.50s;
+}
+.storm-img{
+    display: inline-block;
+    width: 30%;
+    /* background-color: aqua; */
+    margin: 0 0 0 40px;
+}
+.storm{
+    width: 30%;
+    /* height:10%; */
+    display: block;
+    margin: 16px 0px;
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+.tag{
+    text-align: center;
+    margin: 20px 0;
+    background-color: black;
+    color: azure;
+    padding: 20px;
+}
+.para{
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 30px;
+    /* margin-left: -20px; */
+    /* background-color: brown;  */
+}
+.pick{
+    margin: 20px 0 0 20px;
+    text-align: left;
+}
+.note{
+    width: 40%;
+    background-color: aqua;
+}
+.ad{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px 10px 10px 170px;
+}
+.ads{
+    width:40%;
+    height: 100%;
+    background-color: rgba(60, 63, 63, 0.669);
+    padding: 100px;
+    margin: 5px 0 0 50px;
+}
+.ad-text{
+    padding-left: 6px;
+}
+.truck{
+    margin-top: 20px;
+}
+.truck img{
+    width: 120px;
+    height: 100px;
+    margin-left: 10px;
+}
+.bike{
+    display: flex;
+    border-top: 1px solid black;
+    margin-left: 30px;
+    width: 80%;
+    /* margin: 0 20px 30px 0; */
+}
+.bus{
+    margin:35px 0 0 30px;
+}
+.tags{
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    margin-top: 40px;
+}
+.flex{
+    background-color:rgba(88, 86, 86, 0.801);
+    padding: 20px;
+    /* height: 150px; */
+    display: flex;  
+    flex-wrap: wrap;  
+}
+.flex p{
+    margin: 13px 13px;
+    padding: 2px 3px;
+    background-color: rgba(75, 77, 79, 0.772);
+    
+}
+.cat p {
+    text-align: center;
+    margin-top: 20px;
+} 
+.cat h1{
+    margin: 20px 0 0 280px;
+
+}
+.cat{
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.imageback{
+    background-color:aqua;
+    color: rgb(255, 5, 5);
+}
+/* .tag1{
+    border: 1px solid black;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .mar_pad{
+    background-color:blue;
+    color:azure;
+    height: 300px;
+    width: 200px;
+    margin: 40px auto;
+    padding: 50px;
+
+}
+ul{
+    /* list-style-image:url(../images/burger.jpg); 
+    list-style: 67px square inside url(../images/burger.jpg);
+    width: 200px;
+    list-style-position: inside;
+}
+
+table{
+    margin: 160px;
+    width: 400px;
+    /* height: 600px; 
+}
+table, td, th{
+     border: 1px solid red; 
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: bottom;
+}
+th{
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color:rgb(118, 118, 118);
+} */
+  /*.overflow{
+    width: 400px; 
+    height: 200px;
+    margin: 40px auto;
+    overflow: scroll;
+} */
+
+
+

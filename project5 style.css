@@ -1,0 +1,281 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.nav-bar{
+    background-color:rgb(66, 153, 166);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    margin: 0px 0 0 0;
+    
+}
+.main-menu{
+    list-style: none;
+    display: block;
+    color: rgb(255, 254, 254);
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    display: inline;
+}
+.main-menu li{
+    margin: 0 5px;
+    padding: 4px;
+    display: inline-block;
+    line-height: 45px;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: rgba(8, 58, 100, 0.753);
+
+}
+.main-menu li a:hover{
+    color: rgb(247, 247, 247);
+    background-color: rgba(80, 83, 86, 0.559);
+    margin: 10px 10px;
+
+    transition: 0.70s;
+}
+input[type='search'] {
+    height: 60px;
+    background: url('../images/search.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin: 5px 30px;
+    padding: 0 32px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(66, 153, 166);
+} 
+input[type='search']:focus{
+    width: 220px;
+    height: 40px;
+}
+.yuri{
+    background:url(../images/pexels-pripicart-758771.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+}
+.yuri-texts{
+    text-align: center;
+    padding-top: 200px;
+    color: rgb(14, 54, 95);
+}
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: rgb(81, 122, 141);
+}
+.portfolio-text{
+    color: rgb(124, 159, 177);
+    margin: 0 100px 50px 100px;
+    
+}
+.about-sec{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.about-sec img{
+    width: 40%;
+    object-fit: cover;
+    height: 400px;
+    margin: 0 0 0 70px;
+    
+}
+.cont-about{
+    padding-top: -140px;
+    width: 40%;
+    float: right;
+    height: 400px;
+    margin-right: 70px;
+}
+.cont{
+    background-color:  rgb(66, 153, 166);
+}
+.cont-div{
+    display: inline-block;
+    margin:20px 0 20px 200px;
+    text-align: center;
+}
+.axe{
+    background:url(../images/pexels-pripicart-758771.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   
+}
+.axe-texts{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(14, 54, 95);
+    }
+.input{
+    padding:10px 30px;
+    margin: 20px 0 20px 600px;
+    border-radius: 20px;
+    background-color:rgb(61, 122, 150) ;
+}
+.input:hover{
+    color: rgb(61, 122, 150);
+    background-color: rgb(20, 19, 19);
+    transform: scale(1.2,1.2);
+    transition: transform 1s ease-in;
+}
+.axes{
+    background:url(../images/pexels-pripicart-758771.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+.axes-texts{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(14, 54, 95);
+    }
+    .box{
+        text-align: center;
+       }
+        .boxes{
+            color: rgb(54, 121, 144);
+            margin: 30px;
+        }
+        .pawser{
+           display: inline-block;
+           margin: 0 0 0 150px;
+    
+        }
+         .pixel{ 
+            border-radius: 20px;
+            border-color: rgb(42, 99, 99);
+        }
+        .paws-h3{
+            color: rgb(47, 124, 124);
+            text-align: center;
+            
+        }.pixels{
+            width: 100%;
+            padding: 0 0 0 150px;
+            border-radius: 20px;
+            border-color: rgb(37, 90, 90);
+        }
+/* .images:hover{
+    /* box-shadow:  100px 105px 0 50px rgb(20, 19, 19); 
+    outline-color: black;
+    outline-width: 5px;
+    outline-offset: 5px; */
+    /* background-color: rgba(0, 0, 0, 0.046);
+    opacity: 1px; */
+    .image1 {
+        width: 90%;
+        /* margin: 0 auto; */
+        margin-left: 5vw;
+    }
+    .image1 img{
+        display: inline-block;
+        width: 20vw;
+        height: 200px;
+        object-fit:cover;
+        margin: 5px;
+        
+    }
+    .image1 img:hover{
+        opacity: 0.7;
+    }
+
+    .image-text h2{
+        text-align:center;
+        height: 200px;
+        background-color: aqua;
+        vertical-align:top;
+        line-height: 100px;
+        /* direction:rtl; */
+        /* unicode-bidi: bidi-override; */
+        letter-spacing: 5px;
+        text-shadow:  2px 1px 5px rgb(128, 133, 4,0.6);
+
+    }
+    .image-text p {
+        /* line-height: 50px; */
+        text-indent: 50px;
+        word-spacing: 20px;
+        /* letter-spacing: 5px; */
+        /* word-break: break-all; */
+        text-transform:lowercase;
+        white-space: pre;
+
+        /* word-wrap: break-word; */
+
+    
+
+    }
+    .image-text p span{
+        text-decoration: 2px line-through dotted red;
+        font-size: 30px;
+    }
+    /* div[class%="c"] */
+    .flex{
+        width: 100%;
+        display: flex;
+        margin: 40px 0;
+    }
+    .flex1{
+        width: 30%;
+        padding: 5% 0 0 6%;
+        text-align: right
+        }
+    .flex2{
+        width: 60%;
+    }
+    .flex2 img{
+        /* margin:0 5px 0 0; */
+        width: 60%;
+        height: 120%;
+        border-radius: 200px;
+        margin: 0px 0 0 20%;
+    }
+    .flex3{
+        width: 30%;
+        /* margin:30px 0 0 0px;  */
+        padding: 5% 6% 0 0;
+    }
+    .flex3 h3{
+        color:rgb(16, 123, 88);
+    }
+    .flex1 h3{
+        color:rgb(16, 123, 88);
+    }
+    .flex3 p{
+        color:rgb(0, 0, 0);
+    }
+    .flex1 p{
+       color:rgb(0, 0, 0);
+    }
+
+
+
+
+
+    
+

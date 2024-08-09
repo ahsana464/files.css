@@ -1,0 +1,91 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+.inputs .input-align{
+    width: 800px;
+    margin-left: 220px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.inputs .inp-br{
+    border: 0px;
+    border-bottom: 1px solid rgba(76, 76, 76, 0.648);
+    
+}
+.inputs .inp-br:hover{
+     background-color: rgba(169, 169, 169, 0.477); 
+}
+.inputs .inp-br{
+    border: 0px;
+    border-bottom: 1px solid rgba(76, 76, 76, 0.648);
+    
+}
+.inputs .inp-br:hover{
+     background-color: rgba(169, 169, 169, 0.477); 
+}
+.button{
+    margin-left:  220px;
+    margin-bottom: 20px;
+    color:rgba(26, 75, 79, 0.881);
+    background-color: rgb(197, 209, 211);
+    border-radius: 8px;
+    border: 0px;
+    padding: 6px;
+    
+}
+.button:hover{
+    color:rgba(203, 202, 218, 0.881);
+    background-color: rgb(73, 122, 118);
+    transform: scale(1.2,1.2) ;
+    /* rotate(-360deg) translate(10px, 23px); */
+    border-radius: 15px;
+    transition: 0.81s ease;
+}
+.img img{
+    width: 2%;
+    height: 2%;
+    padding-top: 7%;
+}
+.img{
+    background-color: rgb(62, 63, 63);
+    text-align: center;
+}
+.img p{
+    padding-bottom: 5%;
+  
+}
+.nav-barnav{
+    background-color: black;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+.nav-linkactive{
+    color: rgb(255, 255, 255);
+    transition: 0.80s;
+}
+.nav-linkactive:hover{
+    color: rgb(100, 143, 206);
+
+}
+.boxes{
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+.pawser{
+   display: inline-block;
+   margin-left: 50%;
+   margin-bottom: 2%;
+
+}
+.p{
+    text-align: center;
+    width: 90%;
+    padding-left: 25%;
+}

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.yuri{
+    background:url(../images/flowers.jpg) ;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 0px 0;
+    box-shadow: inset 400px 400px 10px 100px rgba(3, 16, 112, 0.562);
+}
+.yuri-text{
+    color:  rgb(255, 255, 255)
+
+    }
+
+    .yuri-h3{
+        color:rgb(52, 118, 118) ;
+         text-align: center ; 
+        padding: 200px 0 0 0;
+        margin: 10px;
+
+    }
+    .yuri-p{
+        color:rgb(52, 118, 118);
+        padding: 1px 0 10px ;
+    }
+    .dustin{
+        text-align: center;
+        margin: 100px auto;
+        color: rgb(0, 0, 0) ; 
+        width: 80%;
+        /* background-color: rgb(82, 214, 214); */
+        /* box-shadow: 23px 10px 30px 45px rgb(0, 0, 0) */
+        
+    }
+    .paws{
+        display: inline-block;
+        height: 400px;
+        width: 250px;
+        padding: 0;
+        background-color: aqua;
+        margin: 0 30px;
+
+    
+    }
+    
+
+    .img-cn{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .paws img{
+        width: 100%;
+        height: 300px;
+    }
+    .paws-h3{
+        color: rgb(52, 118, 118);
+        text-align: center;
+        
+    }
+    .header{
+        color:  rgb(220, 155, 155);
+        background-color:rgb(52, 118, 118); ;
+        text-align: center;
+        height: 240px; 
+        width: 100%;
+        padding: 10px;
+    }
+    .header-p{
+        background-color: azure;
+        border-radius: 10px;
+        width: 450px;
+        padding: 5px 30px 5px 30px;
+        margin: 0  0 5px 360px;
+        
+    }
+    .head{
+        color: rgb(249, 249, 249);
+        margin: 10px 0 20px 0;
+    }
+    .yurix{
+        background:url(../images/flowers.jpg) ;
+        height: 450px;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0 0px 0;
+        box-shadow: inset 450px 450px 10px 100px rgba(114, 180, 141, 0.642) ;
+    }
+   .pixel{
+    color: rgb(52, 118, 118) ;
+    display: inline-block;
+   
+   }
+   .box{
+    text-align: center;
+   }
+    .boxes{
+        color: rgb(30, 114, 86);
+        margin: 50px;
+    }
+    .pawser{
+       display: inline-block;
+       margin: 0 0 0 150px;
+
+    }
+    .pixels{
+        width: 100%;
+        padding: 0 0 0 150px;
+    }
+   
+  
+    
+
+
